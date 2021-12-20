@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "start": "node ./src/server.js",
     "prettier": "prettier ./src",
     "eslint": "eslint --fix ./src",
     "format": "npm run eslint && npm run prettier"
